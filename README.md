@@ -26,8 +26,8 @@ This version of nheqminer is a continuation of the development effort, with the 
 
 ## Download
 * Binary releases: TBA
-* Git tree: https://github.com/dwymi02/nheqminer.git
-  * Clone with git clone https://github.com/dwymi02/nheqminer.git
+* Git tree: https://github.com/loven-doo/nheqminer.git
+  * Clone with git clone https://github.com/loven-doo/nheqminer.git
 
 
 ## Build
