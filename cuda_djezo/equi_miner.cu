@@ -555,7 +555,7 @@ __global__ void digit_1(equi<RB, SM>* eq)
 
 	// enable this to make fully safe shared mem operations;
 	// disabled gains some speed, but can rarely cause a crash
-	//__syncthreads();
+	__syncthreads();
 
 #pragma unroll
 	for (u32 i = 0; i != 2; ++i)
@@ -696,7 +696,7 @@ __global__ void digit_2(equi<RB, SM>* eq)
 
 	// enable this to make fully safe shared mem operations;
 	// disabled gains some speed, but can rarely cause a crash
-	//__syncthreads();
+	__syncthreads();
 
 #pragma unroll
 	for (u32 i = 0; i != 2; ++i)
@@ -826,7 +826,7 @@ __global__ void digit_3(equi<RB, SM>* eq)
 
 	// enable this to make fully safe shared mem operations;
 	// disabled gains some speed, but can rarely cause a crash
-	//__syncthreads();
+	__syncthreads();
 
 #pragma unroll
 	for (u32 i = 0; i != 2; ++i)
@@ -961,7 +961,7 @@ __global__ void digit_4(equi<RB, SM>* eq)
 
 	// enable this to make fully safe shared mem operations;
 	// disabled gains some speed, but can rarely cause a crash
-	//__syncthreads();
+	__syncthreads();
 
 #pragma unroll
 	for (u32 i = 0; i != 2; ++i)
@@ -1077,7 +1077,7 @@ __global__ void digit_5(equi<RB, SM>* eq)
 
 	// enable this to make fully safe shared mem operations;
 	// disabled gains some speed, but can rarely cause a crash
-	//__syncthreads();
+	__syncthreads();
 
 #pragma unroll
 	for (u32 i = 0; i != 2; ++i)
